@@ -149,7 +149,7 @@ font-size: 40px;
 }
 .contact{
     background-color:#f6f5f4;
-    height: 600px;
+    height: 550px;
 }
 .text-centre{
     padding-top: 20px;
@@ -193,6 +193,48 @@ font-size: 40px;
     background-color: white;
     height: 4px;
     margin: 5px 3px;
+}
+.services{
+    background: #f1f1f1;
+    text-align: center;
+    max-width: 100%;
+}
+.services h4 {
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid black;
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+
+}
+.cen{
+    max-width: 100%;
+    margin: auto;
+    padding: 26px;
+}
+.service{
+    display: inline-block;
+    width:calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.service:hover{
+    background: #ddd;
+     
+}
+.service i{
+    color:#3498db;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.service p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 
@@ -239,5 +281,8 @@ font-size: 40px;
     }
     .buttons{
         text-align: center;
+    }
+    .service{
+        width: 100%;
     }
 }
